@@ -1,0 +1,770 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+#header {
+  width: 100%;
+  height: 48px;
+  background-color: #0050B3;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+}
+#header .search {
+  float: left;
+  position: absolute;
+  width: 336px;
+  height: 32px;
+  left: 120px;
+  top: 8px;
+}
+#header .search #search {
+  position: absolute;
+  width: 336px;
+  height: 32px;
+  left: 0px;
+  top: calc(50% - 16px);
+}
+#header .search i {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  right: 10px;
+  top: calc(50% - 8px);
+}
+#header nav {
+  display: flex;
+  justify-content: space-around;
+}
+#header nav a {
+  color: #FFFFFF;
+}
+#header nav .user {
+  position: absolute;
+  width: 93px;
+  height: 32px;
+  left: 903px;
+  top: 13px;
+  display: flex;
+  justify-content: space-around;
+}
+#header nav .user img {
+  position: absolute;
+  right: 83px;
+  bottom: 8px;
+}
+#header nav .user a {
+  color: #FFFFFF;
+}
+#header nav .nav-panel {
+  position: absolute;
+  width: 131px;
+  height: 22px;
+  left: 1008px;
+  top: 13px;
+  display: flex;
+  justify-content: space-around;
+}
+#header nav .nav-panel .dividor1 {
+  position: absolute;
+  width: 1px;
+  height: 16px;
+  background: #003A8C;
+  left: 0px;
+  top: 3px;
+}
+#header nav .nav-panel .dividor2 {
+  position: absolute;
+  width: 1px;
+  height: 16px;
+  background: #003A8C;
+  left: 63px;
+  top: 3px;
+}
+#header nav .nav-panel .dividor3 {
+  position: absolute;
+  width: 1px;
+  height: 16px;
+  background: #003A8C;
+  left: 130px;
+  top: 3px;
+}
+#header nav .icon-panel {
+  position: absolute;
+  width: 165px;
+  height: 32px;
+  left: 1151px;
+  top: 13px;
+}
+#header nav .icon-panel .last-ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+main .side-bar {
+  position: absolute;
+  width: 192px;
+  height: 498px;
+  left: 114px;
+  top: 64px;
+}
+main .side-bar a {
+  color: #595959;
+}
+main .side-bar i {
+  color: #1890FF;
+}
+main .side-bar li {
+  padding-block: 5px;
+}
+main .side-bar div {
+  padding-block: 8px;
+}
+main .side-bar .user-nav {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+}
+main .side-bar .nav-group1 {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+main .side-bar .nav-group1 .news-feed {
+  display: flex;
+  flex-direction: row;
+  background-color: #f8f1f1;
+  border-radius: 4px;
+}
+main .side-bar .nav-group1 .message {
+  display: flex;
+  flex-direction: row;
+}
+main .side-bar .nav-group1 .market {
+  display: flex;
+  flex-direction: row;
+}
+main .side-bar .nav-group2 {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+main .side-bar .nav-group2 ul li {
+  display: flex;
+  flex-direction: row;
+}
+main .side-bar .nav-group3 {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+main .side-bar .nav-group3 ul li {
+  display: flex;
+  flex-direction: row;
+}
+main #mainpart {
+  position: absolute;
+  width: 588px;
+  height: 1366px;
+  left: 324px;
+  top: 64px;
+}
+main #mainpart .create-post {
+  position: absolute;
+  width: 588px;
+  height: 192px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+}
+main #mainpart .create-post .header {
+  border: 1px;
+  background: #F5F5F5;
+  width: 588px;
+  height: 40px;
+}
+main #mainpart .create-post .header p {
+  position: absolute;
+  width: 72px;
+  height: 22px;
+  top: 9px;
+  left: 16px;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #595959;
+}
+main #mainpart .create-post .input {
+  position: absolute;
+  width: 264px;
+  height: 40px;
+  top: 56px;
+  left: 16px;
+}
+main #mainpart .create-post .input input {
+  position: absolute;
+  width: 208px;
+  height: 24px;
+  top: 8px;
+  left: 56px;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #8C8C8C;
+}
+main #mainpart .create-post .footer {
+  position: absolute;
+  width: 556px;
+  height: 56px;
+  top: 120px;
+  left: 16px;
+}
+main #mainpart .create-post .footer .button1 {
+  position: absolute;
+  width: 134px;
+  height: 40px;
+  top: 16px;
+  left: 0px;
+  display: flex;
+  background: #F5F5F5;
+  border-radius: 48px;
+  align-items: center;
+  justify-content: center;
+}
+main #mainpart .create-post .footer .button2 {
+  position: absolute;
+  width: 125px;
+  height: 40px;
+  background: #F5F5F5;
+  border-radius: 48px;
+  top: 16px;
+  left: 142px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main #mainpart .create-post .footer .button3 {
+  position: absolute;
+  width: 148px;
+  height: 40px;
+  background: #F5F5F5;
+  border-radius: 48px;
+  top: 16px;
+  left: 275px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main #mainpart .create-post .footer .button4 {
+  position: absolute;
+  width: 48px;
+  height: 40px;
+  background: #F5F5F5;
+  border-radius: 48px;
+  top: 16px;
+  left: 431px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main #mainpart .item1 {
+  position: absolute;
+  width: 588px;
+  height: 571px;
+  top: 208px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+main #mainpart .item1 .header-part {
+  position: absolute;
+  width: 556px;
+  height: 48px;
+  top: 16px;
+  left: 16px;
+}
+main #mainpart .item1 .header-part .user-header {
+  position: absolute;
+  width: 181px;
+  height: 48px;
+  display: flex;
+}
+main #mainpart .item1 .header-part .user-header p {
+  width: 121px;
+  height: 22px;
+  left: 60px;
+  top: 4px;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #0050B3;
+}
+main #mainpart .item1 .header-part .info-header {
+  position: absolute;
+  width: 60px;
+  height: 22px;
+  top: 30px;
+  left: 43px;
+  display: flex;
+  justify-content: space-around;
+}
+main #mainpart .item1 .header-part .info-header p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #8C8C8C;
+  display: flex;
+  align-items: center;
+}
+main #mainpart .item1 .header-part .info-header i {
+  width: 14px;
+  height: 14px;
+  font-size: 11px;
+  margin-top: 4px;
+}
+main #mainpart .item1 .header-part .point-header i {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 536px;
+  top: 10px;
+}
+main #mainpart .item1 .text-img {
+  position: absolute;
+  width: 556px;
+  height: 395px;
+  left: 16px;
+  top: 80px;
+}
+main #mainpart .item1 .text-img .p2 {
+  position: absolute;
+  top: 65px;
+}
+main #mainpart .item1 .text-img img {
+  position: absolute;
+  top: 104px;
+}
+main #mainpart .item1 .like {
+  position: absolute;
+  width: 37px;
+  height: 22px;
+  top: 487px;
+  left: 16px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+}
+main #mainpart .item1 .footer-item1 {
+  position: absolute;
+  width: 556px;
+  height: 40px;
+  top: 515px;
+  left: 16px;
+}
+main #mainpart .item1 .footer-item1 .group11 {
+  position: absolute;
+  width: 460px;
+  height: 24px;
+  top: 16px;
+  left: 48px;
+}
+main #mainpart .item1 .footer-item1 .group11 ul {
+  display: flex;
+  justify-content: space-between;
+}
+main #mainpart .item1 .footer-item1 .group11 ul a, main #mainpart .item1 .footer-item1 .group11 ul li {
+  display: flex;
+  justify-content: space-between;
+}
+main #mainpart .item2 {
+  position: absolute;
+  width: 588px;
+  height: 571px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  top: 811px;
+}
+main #mainpart .item2 .header-item2 {
+  position: absolute;
+  width: 556px;
+  height: 48px;
+  top: 16px;
+  left: 16px;
+}
+main #mainpart .item2 .header-item2 .figma-logo {
+  position: absolute;
+  width: 99px;
+  height: 48px;
+}
+main #mainpart .item2 .header-item2 .figma-logo p {
+  position: absolute;
+  top: 4px;
+  left: 60px;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #0050B3;
+}
+main #mainpart .item2 .header-item2 .hours6 {
+  position: absolute;
+  left: 60px;
+  top: 26px;
+  width: 60px;
+  height: 22px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 22px;
+  align-items: center;
+  color: #8C8C8C;
+}
+main #mainpart .item2 .header-item2 .icon-3point {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 532px;
+}
+main #mainpart .item2 .text-item2 {
+  position: absolute;
+  width: 556px;
+  height: 66px;
+  top: 80px;
+  left: 16px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #595959;
+}
+main #rightbar {
+  position: absolute;
+  width: 384px;
+  height: 732px;
+  left: 936px;
+  top: 64px;
+}
+main #rightbar .stories {
+  position: absolute;
+  width: 384px;
+  height: 348px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+main #rightbar .stories .header-rightbar {
+  position: absolute;
+  width: 344px;
+  height: 22px;
+  display: flex;
+  left: 24px;
+  top: 16px;
+}
+main #rightbar .stories .header-rightbar .set {
+  position: absolute;
+  left: 295px;
+}
+main #rightbar .stories .header-rightbar .archive a {
+  display: flex;
+  left: 212px;
+  position: absolute;
+}
+main #rightbar .stories .add-story {
+  position: absolute;
+  width: 312px;
+  height: 48px;
+  left: 24px;
+  top: 54px;
+  display: flex;
+}
+main #rightbar .stories .add-story a {
+  display: flex;
+  align-items: center;
+  left: 60px;
+  position: absolute;
+  font-size: 14px;
+  line-height: 22px;
+  color: #0050B3;
+  width: 106px;
+  height: 22px;
+}
+main #rightbar .stories .add-story input {
+  display: flex;
+  align-items: center;
+  left: 60px;
+  position: absolute;
+  font-size: 13px;
+  line-height: 22px;
+  color: #8C8C8C;
+  top: 26px;
+  width: 252px;
+  height: 22px;
+}
+main #rightbar .stories .concuria {
+  position: absolute;
+  width: 312px;
+  height: 48px;
+  left: 24px;
+  top: 118px;
+  display: flex;
+}
+main #rightbar .stories .concuria a {
+  display: flex;
+  align-items: center;
+  left: 60px;
+  position: absolute;
+  font-size: 14px;
+  line-height: 22px;
+  color: #0050B3;
+  width: 57px;
+  height: 22px;
+}
+main #rightbar .stories .concuria p {
+  display: flex;
+  align-items: center;
+  left: 60px;
+  position: absolute;
+  font-size: 14px;
+  line-height: 22px;
+  color: #8C8C8C;
+  top: 26px;
+  width: 252px;
+  height: 22px;
+}
+main #rightbar .stories .figma-story {
+  position: absolute;
+  width: 312px;
+  height: 48px;
+  left: 24px;
+  top: 182px;
+  display: flex;
+}
+main #rightbar .stories .figma-story a {
+  display: flex;
+  align-items: center;
+  left: 60px;
+  position: absolute;
+  font-size: 14px;
+  line-height: 22px;
+  color: #0050B3;
+  width: 39px;
+  height: 22px;
+}
+main #rightbar .stories .figma-story p {
+  display: flex;
+  align-items: center;
+  left: 60px;
+  position: absolute;
+  font-size: 14px;
+  line-height: 22px;
+  color: #8C8C8C;
+  top: 26px;
+  width: 252px;
+  height: 22px;
+}
+main #rightbar .stories .ant {
+  position: absolute;
+  width: 312px;
+  height: 48px;
+  left: 24px;
+  top: 246px;
+  display: flex;
+}
+main #rightbar .stories .ant a {
+  display: flex;
+  align-items: center;
+  left: 60px;
+  position: absolute;
+  font-size: 14px;
+  line-height: 22px;
+  color: #0050B3;
+  width: 68px;
+  height: 22px;
+}
+main #rightbar .stories .ant p {
+  display: flex;
+  align-items: center;
+  left: 60px;
+  position: absolute;
+  font-size: 14px;
+  line-height: 22px;
+  color: #8C8C8C;
+  top: 26px;
+  width: 252px;
+  height: 22px;
+}
+main #rightbar .bday {
+  position: absolute;
+  width: 384px;
+  height: 56px;
+  top: 380px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+main #rightbar .bday .bday-info {
+  display: flex;
+  position: absolute;
+  width: 200px;
+  height: 24px;
+  top: 16px;
+  left: 16px;
+}
+main #rightbar .bday .bday-info span {
+  color: #0050B3;
+}
+main #rightbar .bday .bday-info i {
+  color: #0050B3;
+}
+main #rightbar .fanpage {
+  position: absolute;
+  width: 384px;
+  height: 296px;
+  top: 500px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+main #rightbar .fanpage .header-fan {
+  position: absolute;
+  width: 384px;
+  height: 32px;
+  top: 8px;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 25px;
+  color: #595959;
+  align-items: center;
+  font-size: 14px;
+  line-height: 22px;
+}
+main #rightbar .fanpage .fanpage-stat {
+  position: absolute;
+  width: 352px;
+  height: 94px;
+  top: 56px;
+  left: 16px;
+}
+main #rightbar .fanpage .fanpage-stat a {
+  position: absolute;
+  width: 57px;
+  height: 22px;
+  left: 60px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #0050B3;
+}
+main #rightbar .fanpage .fanpage-stat .mes {
+  position: absolute;
+  left: 60px;
+  top: 26px;
+  width: 196px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+}
+main #rightbar .fanpage .fanpage-stat .not {
+  width: 196px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 60px;
+  top: 49px;
+}
+main #rightbar .fanpage .radio-button {
+  position: absolute;
+  width: 352px;
+  height: 40px;
+  top: 166px;
+  left: 16px;
+  display: flex;
+}
+main #rightbar .fanpage .radio-button a {
+  position: absolute;
+  height: 24px;
+  left: 16px;
+  right: 16.36px;
+  top: calc(50% - 12px);
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+main #rightbar .fanpage .radio-button .like-button {
+  position: absolute;
+  left: 0%;
+  right: 66.38%;
+  top: 0%;
+  bottom: 0%;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border: 1px solid #1890FF;
+}
+main #rightbar .fanpage .radio-button .like-button a {
+  color: #1890FF;
+}
+main #rightbar .fanpage .radio-button .view-button {
+  position: absolute;
+  left: 33.4%;
+  right: 33.19%;
+  top: 0%;
+  bottom: 0%;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+}
+main #rightbar .fanpage .radio-button .view-button a {
+  color: #595959;
+}
+main #rightbar .fanpage .radio-button .post-button {
+  position: absolute;
+  right: 0%;
+  left: 66.38%;
+  top: 0%;
+  bottom: 0%;
+  box-sizing: border-box;
+  background: #FFFFFF;
+  border: 1px solid #D9D9D9;
+}
+main #rightbar .fanpage .radio-button .post-button a {
+  color: #595959;
+}
+main #rightbar .fanpage .like262 {
+  position: absolute;
+  width: 95px;
+  height: 58px;
+  top: 222px;
+  left: 144px;
+}
+main #rightbar .fanpage .like262 .top-likes {
+  position: absolute;
+  width: 42px;
+  height: 32px;
+  left: 27px;
+  font-size: 24px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #262626;
+}
+main #rightbar .fanpage .like262 .bottom-likes {
+  position: absolute;
+  width: 95px;
+  height: 22px;
+  top: 36px;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #8C8C8C;
+}/*# sourceMappingURL=style.css.map */
